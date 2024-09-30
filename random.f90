@@ -1,9 +1,9 @@
 program random
 implicit none
 real :: r
-integer :: i
-i=1
-do while(i>0)
-    print *, ''
-end do
+integer :: k
+print *, 'Enter k='
+read(*,*) k
+r=rand(k)
+print *, r
 end program random
