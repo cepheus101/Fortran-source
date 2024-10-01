@@ -2,7 +2,7 @@ program loop
         implicit none
         integer :: i
         i=0
-        do while (i<=5)
+        do while (i<=20)
          print *, i
          i=i+1
         end do 
