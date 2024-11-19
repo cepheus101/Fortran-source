@@ -1,11 +1,20 @@
 program arrays
 implicit none
-integer, dimension(2,2) :: array1
-integer i,j
-do i=1,2
-  do j=1,2
-    array1(i,j)=2
-  end do
+integer, dimension(:),allocatable :: A
+integer :: i,n,sum
+sum=0
+print *, 'Enter size of array:'
+read(*,*) n
+allocate (A(n))
+print *, 'Enter elements'
+do i=1,n
+  read(*,*) A(i)
 end do
-print *, array1
+do i=1,n
+  print *, A(i)
+end do
+do i=1,n
+  sum=sum+A(i)
+end do
+print *, 'Sum=' , sum
 end program arrays
