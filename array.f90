@@ -1,4 +1,4 @@
-program array2
+program array
     implicit none
     integer,dimension(:,:),allocatable::A !declaring 2-D array without allocating size
     integer :: n,i,j
@@ -16,4 +16,4 @@ program array2
     do i=1,n
         print *, (A(i,j),j=1,n)
     end do
-end program array2     
+end program array 

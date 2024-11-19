@@ -1,4 +1,4 @@
-program arrays
+program array_sum
 implicit none
 integer, dimension(:),allocatable :: A
 integer :: i,n,sum
@@ -17,4 +17,4 @@ do i=1,n
   sum=sum+A(i)
 end do
 print *, 'Sum=' , sum
-end program arrays
+end program array_sum
