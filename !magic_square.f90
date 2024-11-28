@@ -19,18 +19,18 @@ program magic_square
        magicSquare(i,j)=0
     end do
   end do
-  row = n / 2
-  col = n - 1
+  col = n / 2
+  row = n - 1
 
   ! Loop to generate the magic square
   do num = 1, n*n
     ! Handle edge cases and wrap around
-    if (row==n .AND. col==n) then
+    if (row==1 .AND. col==n) then
       col = n - 2
       row = 1
     else if (col==n) then
       col = 1
-    else if (row<0) then
+    else if (row<1) then
       row = n - 1
     end if
 
@@ -39,7 +39,7 @@ program magic_square
       col = col - 2
       row = row + 1
     else
-      magicSquare(row+1,col+1) = num
+      magicSquare(row,col) = num+1
     end if
 
     ! Move to the next position
