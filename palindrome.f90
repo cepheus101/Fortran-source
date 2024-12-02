@@ -1,8 +1,6 @@
 program palindrome
 implicit none
-integer :: n,i,l,rev,rem,temp
-l=0
-i=1
+integer :: n,rev,rem,temp
 rev=0
 print *, 'Enter a Number:'
 read(*,*) n
