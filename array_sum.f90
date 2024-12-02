@@ -11,9 +11,6 @@ do i=1,n
   read(*,*) A(i)
 end do
 do i=1,n
-  print *, A(i)
-end do
-do i=1,n
   sum=sum+A(i)
 end do
 print *, 'Sum=' , sum

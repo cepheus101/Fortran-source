@@ -12,7 +12,6 @@ do while(temp>0)
     rev = (rev * 10) + rem; 
     temp = temp / 10;
 end do
-print *, 'Reverse of the Number=',rev
 if(rev==n) then
     print *, 'The number is palindrome'
 else
