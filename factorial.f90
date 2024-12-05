@@ -1,6 +1,6 @@
 program factorial
 implicit none
-integer :: n,fact,i
+real :: n,fact,i
 fact=1
 print *, 'Enter n='
 read(*,*) n
