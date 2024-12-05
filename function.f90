@@ -5,7 +5,7 @@ print *, 'Give value of a and b:'
 read(*,*) a,b
 c=f(a,b)
 print *, 'Avg of a and b is:',c
-end program
+end program function
 !Function Block start
 function f(x,y)
 real x,y
