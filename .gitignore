@@ -1,0 +1,19 @@
+# ========================
+# 🚀 C++ & Fortran (Compiled Files)
+# ========================
+# Object files
+*.o
+*.obj
+
+# Module files (Fortran)
+*.mod
+*.smod
+
+# Executables (Linux & Windows)
+*.exe
+*.out
+*.app
+a.out
+
+# Debug folders
+.dSYM/
