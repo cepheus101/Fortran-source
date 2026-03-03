@@ -1,0 +1,20 @@
+
+# ========================
+# 🚀 C++ & Fortran (Compiled)
+# ========================
+*.o
+*.obj
+*.mod
+*.smod
+*.exe
+*.out
+*.app
+a.out
+.dSYM/
+
+# ========================
+# 📂 System & IDE
+# ========================
+.DS_Store
+.vscode/
+# Only ignore .vscode if you don't want to share your VSCodium settings
